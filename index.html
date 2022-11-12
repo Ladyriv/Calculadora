@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Calculadora</title>
 </head>
 <body>
     
+    <label class="switch">
+        <input type="checkbox" id="check">
+        <span class="toggle"></span>
+    </label>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="result"/>
+        
+            <input type="button" value="C" onclick="clearScreen()" class="btn"/>
+            <input type="button" value="%" onclick="porcent()" class="btn"/>
+            <input type="button" value="DEL" onclick="clear()" class="btn"/>
+            <input type="button" value="/" class="operator" onclick="display('/')"/>
+
+            <input type="button" value="7" class="btn" onclick="display('7')"/>
+            <input type="button" value="8" class="btn" onclick="display('8')"/>
+            <input type="button" value="9" class="btn" onclick="display('9')"/>
+            <input type="button" value="*" class="operator" onclick="display('*')"/>
+
+            <input type="button" value="4" class="btn" onclick="display('4')"/>
+            <input type="button" value="5" class="btn" onclick="display('5')"/>
+            <input type="button" value="6" class="btn" onclick="display('6')"/>
+            <input type="button" value="-" class="operator" onclick="display('-')"/>
+
+            <input type="button" value="1" class="btn" onclick="display('1')"/>
+            <input type="button" value="2" class="btn" onclick="display('2')"/>
+            <input type="button" value="3" class="btn" onclick="display('3')"/>
+            <input type="button" value="+" class="operator" onclick="display('+')"/>
+
+            <input type="button" value="0" class="btn" onclick="display('0')"/>
+            <input type="button" value="." class="operator" onclick="display('.')"/>
+            <input type="button" value="=" class="btn" onclick="solve()"/>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>

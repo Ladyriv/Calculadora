@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    border: 2px solid #000000;
+    background: linear-gradient(#00AAFF, #00FF6C);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    width: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #000000,
+                      5px 5px 12px rbga(0,0,0,.16);
+}
+
+.btn,
+.operator{
+    width: 50px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+/* boton modo */
+label{
+    background: #cccccc;
+    width:60px;
+    height: 24px;
+    display:inline-block;
+    margin-top:10px;
+    margin-left: 10px;
+    bordeR:1px solid rgba(0,0,0,0.5);
+    padding:0;
+    border-radius:15px;
+}
+label .toggle{
+    transition: .2s;
+    width:22px;
+    height: 22px;
+    border:1px solid rgba(0,0,0,0.5);
+    display:block;
+    border-radius:100%;
+    background: #ddd;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+
+input[type="checkbox"]:checked + .toggle{
+    margin-left:40px;
+    background-color: #37393f;
+}
+.container .dark{
+    background-color: #252525;
+}
