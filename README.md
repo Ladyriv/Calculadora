@@ -23,4 +23,4 @@ Para desplegar este proyecto:
 - https://calculadoralr-01.vercel.app/
 
 ## Autor
-- [@LeidyRivera](https://github.com/Ladyriv)
+- [@LeidyRivera] https://github.com/Ladyriv
