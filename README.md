@@ -18,6 +18,8 @@ Para desplegar este proyecto:
 ```bash
   Ejecutar archivo Index.html
 ```
+## Vista Previa
+![Preview](https://github.com/Ladyriv/Calculadora/blob/ab1f5cd3db393cb77c30f985ed20ff0e8ce634c9/img/Previa.png)
 
 ## Demo  :computer:
 - https://calculadoralr-01.vercel.app/
