@@ -5,7 +5,7 @@ const botonSwitch = document.getElementById("check");
 
 botonSwitch.addEventListener("click", function(){
     if(botonSwitch.checked){
-        console.log("dark")
+        document.body.classList.switch("dark");
     }
     else{
         console.log("light") 
