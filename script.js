@@ -1,15 +1,9 @@
 //Boton cambio modo
-const input = document.getElementsByClassName("calculator");
-const botonSwitch = document.getElementById("check");
+function cambiarModo() {
+    var cuerpoweb = document.body;
+    cuerpoweb.classList.toggle("dark");
+}
 
-botonSwitch.addEventListener("click", function(){
-    if(botonSwitch.checked){
-        document.getElementById("dark");
-    }
-    else{
-        document.getElementById("light");
-    }
-});
 
 //funcionamiento calculadora
 function display(val) {
@@ -38,4 +32,3 @@ function porcent() {
     document.getElementById('result').value = y;
     return y;
 }
-
